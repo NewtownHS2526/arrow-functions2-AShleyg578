@@ -7,6 +7,7 @@ function greet() {
 }
 // Convert to arrow function:
 
+const greet = () => "Hello, World!";
 
 // Problem 2
 function sayGoodbye() {
@@ -14,6 +15,7 @@ function sayGoodbye() {
 }
 // Convert to arrow function:
 
+const sayGoodbye = () => "Gooodbye!";
 
 // Problem 3
 function getCurrentYear() {
@@ -36,6 +38,7 @@ function getPi() {
 }
 // Convert to arrow function:
 
+const getPi = () => 3.14159
 
 // Problem 6
 function showAlert() {
@@ -43,6 +46,7 @@ function showAlert() {
 }
 // Convert to arrow function:
 
+const showAlert = () => "This is an alert!"
 
 // Problem 7
 function getRandomNumber() {
@@ -50,6 +54,7 @@ function getRandomNumber() {
 }
 // Convert to arrow function:
 
+const getRandomNumber = () => Math.random();
 
 // Problem 8
 function displayDate() {
@@ -57,6 +62,7 @@ function displayDate() {
 }
 // Convert to arrow function:
 
+const displayDate = () => new Date();
 
 // Problem 9
 function getTrue() {
@@ -64,6 +70,7 @@ function getTrue() {
 }
 // Convert to arrow function:
 
+const getTrue = () => "true";
 
 // Problem 10
 function logInfo() {
@@ -71,3 +78,4 @@ function logInfo() {
 }
 // Convert to arrow function:
 
+const logInfo = () => "Information logged";
